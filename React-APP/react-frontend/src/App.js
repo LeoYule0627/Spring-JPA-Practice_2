@@ -17,7 +17,7 @@ return (
           <Route path="/users" element={<ListUserComponent />}></Route>
           <Route path="/update/:urlId" element={<CreateUserComponent />}></Route>
           <Route path="/create" element={<CreateUserComponent />}></Route>
-          <Route path="/view/:id" element={<ViewUserComponent />}></Route>
+          <Route path="/view/:searchId" element={<ViewUserComponent />}></Route>
         </Routes>
       </div>
     </Router>
